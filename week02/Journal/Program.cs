@@ -16,6 +16,8 @@ class Program
             Console.WriteLine("2. Display journal entries");
             Console.WriteLine("3. Save journal to file");
             Console.WriteLine("4. Load journal from file");
+
+            // Added functionality to search and find an entry by typing in a keyword
             Console.WriteLine("5. Search entries"); 
             Console.WriteLine("6. Exit");
             Console.Write("Choose an option: ");
