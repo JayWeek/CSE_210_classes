@@ -49,7 +49,7 @@ class Order
 
         else
         {
-            Console.WriteLine("These are the current items in your cart");
+            Console.WriteLine("These are the current items in your cart;\n");
             foreach (Product product in _products)
             {
                 string prodName = product.GetProductName();

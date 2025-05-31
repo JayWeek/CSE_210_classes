@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
-        List<Video> _videos = new List<Video>();
+        List<Video> videos = new List<Video>();
 
         Video video1 = new Video("How to earn 1,000,000 usd in 5 minutes", "Tang Gerald", 300);
         video1.AddComment("twinx", "Wow! After watching this I now shower in $100 bills😎");
@@ -24,11 +24,11 @@ class Program
         video3.AddComment("villian", "Vengence will be mine. I am batman");
         video3.AddComment("Cuotie", "Best video ever");       
        
-        _videos.Add(video1);
-        _videos.Add(video2);
-        _videos.Add(video3);
+        videos.Add(video1);
+        videos.Add(video2);
+        videos.Add(video3);
 
-        foreach (Video video in _videos)
+        foreach (Video video in videos)
         {
             video.DisplayVideoInfo();
             int numComments = video.GetNumberOfComments();
