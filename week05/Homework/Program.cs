@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Homework Project.");
-        
-         // Create a base "Assignment" object
+
+        // Create a base "Assignment" object
         Assignment a1 = new Assignment("Kaylin McDonald", "Multiplication");
         Console.WriteLine(a1.GetSummary());
 
